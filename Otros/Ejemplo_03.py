@@ -1,0 +1,13 @@
+mi_conjunto = {"rojo","blanco", "azul"}
+print(mi_conjunto)
+mi_conjunto.add("violeta")
+mi_conjunto.add("dorado")
+print(mi_conjunto)
+mi_conjunto.remove("celeste")
+mi_conjunto.remove("blanco")
+mi_conjunto.remove("dorado")
+print(mi_conjunto)
+mi_conjunto.discard("celeste")
+mi_conjunto.discard("blanco")
+mi_conjunto.discard("dorado")
+print(mi_conjunto)
